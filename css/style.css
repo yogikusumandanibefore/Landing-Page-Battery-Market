@@ -1,0 +1,326 @@
+/* Navbar */
+
+.navbar{
+    position: relative;
+    z-index: 1;
+}
+.navbar-brand {
+    font-family: 'Viga', sans-serif;
+    font-size: 32px;
+}
+
+/* Jumbotron */
+.jumbotron{
+    /* background-image: url(img/logonew.jpg); */
+    background-color: #fbcb3c;
+    background-size: cover;
+    /* max-width: 100%; */
+    height: auto;
+    /* height: 540px; */
+    text-align: center;
+    position: relative;
+}
+
+.jumbotron .container{
+    z-index: 1;
+    position: relative;
+}
+
+.jumbotron img {
+    width: 50%;
+    z-index: 1;
+}
+
+
+
+.jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 85%;
+    /* background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0)); */
+    position: absolute;
+    bottom: 0;
+}
+
+.jumbotron .display-4{
+    color: #010101;
+    margin-top: 8px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.jumbotron .display-4 {
+    font-weight: bold;
+}
+
+/* Info Panel */
+.info-panel{
+    box-shadow: 0 30px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    margin-top: -80px;
+    background-color: white;
+    padding: 40px;
+}
+
+.info-panel img{
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.info-panel h4{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.info-panel p{
+    font-size: 14px;
+    color: #ACACAC;
+    margin-top: -5px;
+    font-weight: 200;
+}
+
+/* Akhir Info Panel */
+
+/* Workingspace */
+.workingspace{
+    margin-top: 120px;
+    text-align: center;
+}
+
+.workingspace h3{
+    font-size: 42px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-top: 30px;
+    color: #010101;
+}
+
+.workingspace h3 span{
+    font-weight: 500;
+}
+
+.workingspace p{
+    font-size: 20px;
+    color: #010101;
+    font-weight: 500;
+    margin: 20px 0;
+    text-align: justify;
+}
+
+/* Awal Product */
+/* #product .card {
+    border-radius: 0;
+    box-shadow: 5px 3px 10px #fbcb3c;;
+    transition: all 0.3s ease-in;
+} */
+
+#product .card:hover {
+    background: #fbcb3c;;
+    color: #010101;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 3px 8px #fbcb3c;;
+}
+
+#product .card .d-flex a{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#product .card a:hover {
+    color: #010101;
+    font-weight: bold;
+}
+
+#product .card-body .object-fit-cover {
+  object-fit: cover;
+  width: 200px;
+  height: 150px;
+}
+/* Akhir Product */
+
+/* TESTIMONIALS */
+a .carousel-control-next span{
+    margin-top: -100px;
+}
+
+/* Contact */
+.maps h3 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+}  
+
+#contact .btn-wa{
+    background-color: #21a51f; 
+    color: white;
+}
+
+/* Footer */
+.site-footer
+{
+  background-color:#010101;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#737373;
+  font-size:16px;
+  font-weight: bold;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:white;
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+/* Akhir Footer */
+
+
+/* Utility */
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+.underline {
+  width: 90px;
+  border: 0; 
+  height: 3px;
+  margin-bottom: 30px;
+  text-align: center; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+/* Awal Product */
+.nav-atas {
+    font-weight: bold;
+}
+
+.judul {
+font-family: 'Viga', sans-serif;
+font-size: 42px;
+}
+
+nav .nav-2 li{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.breadcrumb, .breadcrumb-item {
+    color: #010101 !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+} 
+
+/* Carousel */
+.carousel-pr img {
+    width: 100%;	
+}
+.object-fit-cover-pr {
+    object-fit: cover;
+    width: 270px;
+    height: 380px;
+}
+/* Akhir Product */
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px){
+    .navbar-brand, .nav-link{
+        color: #010101;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #010101;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+
+    }
+    .jumbotron{
+        margin-top: -75px;
+        height: 640px;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 35px;
+    }
+
+    .workingspace {
+        text-align: left;
+    }
+
+    .testimonial h5{
+        font-size: 32px;
+    }
+    /* MAPS */
+    .card-body iframe{
+        width: 100%;
+    }
+
+    /* hr */
+    .underline {
+        margin-bottom: 70px;
+    }
+
+    /* Product .object-fit-cover */
+    .object-fit-cover-pr {
+        object-fit: cover;
+        width: 350px;
+        height: 400px;
+      }
+
+}
+
